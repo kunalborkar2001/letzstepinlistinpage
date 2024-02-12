@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Protest+Riot&display=swap');
+
+.ListCard {
+    border: solid 1px var(--css-tertiary);
+    min-width: 500px;
+    max-width: 45vw;
+    border-radius: 15px;
+    min-height: 10vh;
+    padding: 12px;
+    display: flex;
+    /* align-items: center; */
+    margin: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.ListCard:hover {
+    border : 2px solid var(--css-primary);
+}
+
+.ListCard .left {
+    height: 138px;
+    align-self: center;
+    width: 196px;
+    /* border: solid red 2px; */
+    border-radius: 12px;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.ListCard .left img{
+    height: 100%;
+    width: 100%;
+}
+
+.ListCard .right {
+    margin-left: 6%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.ListCard .right h1 {
+    font-size: 1.7rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ListCard .subText {
+    color: gray;
+    display: flex;
+    gap: 12px;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.ListCard .details {
+    width: 100%;
+}
+
+.ListCard .details ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ListCard .details .price {
+    font-size: 1.6rem;
+    color: var(--css-primary);
+    font-weight: 900;
+}
+
+.ListCard .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.ListCard .buttons .contact {
+    background: var(--css-secondary);
+    color: white;
+}
+
+.ListCard .buttons .buy {
+    background: green;
+    color: white;
+}
