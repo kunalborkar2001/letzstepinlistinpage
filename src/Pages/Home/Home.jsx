@@ -7,7 +7,11 @@ import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
 import InputBox from '../../Components/InputBox/InputBox'
 import ListCard from '../../Components/ListCard/ListCard'
+import EditLocationAltIcon from '@mui/icons-material/EditLocationAlt';
 import './Home.css'
+import MasonryImageList from '../../Components/BigImageList/BigImageList';
+import SocialNetwork from '../../Components/SocialNetwork/SocialNetwork';
+
 
 const Home = () => {
     return (
@@ -28,6 +32,7 @@ const Home = () => {
                             Contact
                         </Fab>
                     </Box>
+
                 </div>
 
                 <div className="subText">
@@ -37,8 +42,30 @@ const Home = () => {
                     <div className="heart">
                         <Checkbox color='secondary' icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                     </div>
+
                 </div>
-                <div>
+                <Box sx={{ '& > :not(style)': { m: 1 }, }}>
+
+                    <Fab variant="extended" className='buy' >
+                        <ShoppingCartIcon sx={{ mr: 1, }} fontSize="small" />
+                        Buy
+                    </Fab>
+                </Box>
+                <div className='imageGrid'>
+                    <MasonryImageList />
+                    <div className='right'>
+
+                        <div>
+                            <h1><EditLocationAltIcon />Location</h1>
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+                            <h3>441904</h3>
+                        </div>
+
+                        <div>
+                            <h1>Description</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, numquam quos animi est dignissimos veniam eum, labore id officia incidunt voluptates quidem accusantium illo aperiam explicabo dolor iste facere consequuntur esse eaque architecto. Dicta assumenda officiis in earum tenetur praesentium aliquam nulla. Quis accusamus quo, iste quod eveniet officiis quisquam?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='HomeRight'>

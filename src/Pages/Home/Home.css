@@ -9,17 +9,20 @@
 .Home .ListNav {
     height: 10vh;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .HomeLeft {
     min-width: 60vw;
     max-width: 60vw;
-    border: solid red;
+    /* border: solid red; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid lawngreen 3px;
+    /* border: solid lawngreen 3px; */
+    position: relative;
 }
 
 .HomeLeft .BigImg {
@@ -30,7 +33,7 @@
     margin-top: 5vh;
     margin: 12px;
     object-fit: cover;
-    
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 .Home .companyLogo {
@@ -47,15 +50,19 @@
     height: 100vh;
     overflow: scroll;
     flex: 1;
+    /* border: solid 1px ; */
+    padding: 10px;
+    border-radius: 0 0 12px 12px;
+    border: silver 1px solid;
 }
 
 .HomeLeft .BigImg {
-    border: solid yellow;
+    /* border: solid yellow; */
 }
 
 .HomeLeft .BigHead {
     width: 100%;
-    border: solid yellow 1px;
+    /* border: solid yellow 1px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -79,4 +86,42 @@
     gap: 12px;
     font-family: 'Protest Riot', sans-serif;
     align-items: center;
+}
+
+.Home .imageGrid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 14px;
+}
+
+.Home .imageGrid .right {
+    margin-left: 10px;
+}
+
+.Home .imageGrid .right h1 {
+    font-size: 2rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.Home .socials {
+    position: absolute;
+    right: 10px;
+    bottom: 0%;
+}
+
+.Home .buy {
+    background: green;
+    color: white;
+    font-size: .5rem;
+}
+
+
+.Home .buy:hover {
+    color: var(--css-secondary);
 }
