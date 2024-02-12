@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.InputBox  {
+    width: 100%;
+    position: relative;
+}
+
+.InputBox .form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 38vw;
+    margin: 12px;
+    color: var(--css-primary);
+    /* color: #000; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+.InputBox .form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.InputBox .form-control input:focus,
+.InputBox .form-control input:valid {
+    outline: 0;
+    border-bottom-color: var(--css-primary);
+}
+
+.InputBox .form-control label {
+    position: absolute;
+    top: 15px;
+    left: 52px;
+    pointer-events: none;
+}
+
+.InputBox .form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    color: black;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.InputBox .form-control input:focus+label span,
+.InputBox .form-control input:valid+label span {
+    color: black;
+    transform: translateY(-30px);
+}
+
+.InputBox .spanText {
+    font-size: 44px;
+}

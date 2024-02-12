@@ -32,15 +32,15 @@ const ListCard = () => {
                 <div className='buttons'>
                     <Box sx={{ '& > :not(style)': { m: 1 } }}>
 
-                        <Fab variant="extended" className='contact'>
-                            <ConnectWithoutContactIcon sx={{ mr: 1 }} />
+                        <Fab variant="extended" className='contact' size="small" >
+                            <ConnectWithoutContactIcon sx={{ mr: 1 }} fontSize="small" />
                             Contact
                         </Fab>
                     </Box>
                     <Box sx={{ '& > :not(style)': { m: 1 },  }}>
 
-                        <Fab variant="extended" className='buy'>
-                            <ShoppingCartIcon sx={{ mr: 1, }} />
+                        <Fab variant="extended" className='buy' size="small" >
+                            <ShoppingCartIcon sx={{ mr: 1, }} fontSize="small" />
                             Buy
                         </Fab>
                     </Box>

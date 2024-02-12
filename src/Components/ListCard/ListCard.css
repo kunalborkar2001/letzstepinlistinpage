@@ -2,15 +2,15 @@
 
 .ListCard {
     border: solid 1px var(--css-tertiary);
-    min-width: 500px;
-    max-width: 45vw;
+    /* min-width: 500px;  */
+    /* width: 100%; */
     border-radius: 15px;
     min-height: 10vh;
     padding: 12px;
     display: flex;
     /* align-items: center; */
     margin: 12px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
 
 .ListCard:hover {
@@ -42,7 +42,7 @@
 
 }
 .ListCard .right h1 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -79,9 +79,11 @@
 .ListCard .buttons .contact {
     background: var(--css-secondary);
     color: white;
+    font-size: .5rem;
 }
 
 .ListCard .buttons .buy {
     background: green;
     color: white;
+    font-size: .5rem;
 }

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.Home {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+} 
+
+.Home .ListNav {
+    height: 10vh;
+    width: 100%;
+}
+
+.HomeLeft {
+    min-width: 60vw;
+    max-width: 60vw;
+    border: solid red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid lawngreen 3px;
+}
+
+.HomeLeft .BigImg {
+    height: 40vh;
+    width: 80%;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 5vh;
+    margin: 12px;
+    object-fit: cover;
+    
+}
+
+.Home .companyLogo {
+    height: 100px;
+}
+
+.HomeLeft .BigImg img {
+    height: 100%;
+    width: 100%;
+}
+
+.HomeRight {
+    /* width: 40vw; */
+    height: 100vh;
+    overflow: scroll;
+    flex: 1;
+}
+
+.HomeLeft .BigImg {
+    border: solid yellow;
+}
+
+.HomeLeft .BigHead {
+    width: 100%;
+    border: solid yellow 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.HomeLeft .BigHead h1 {
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.HomeLeft .BigHead .contact{
+    background: var(--css-secondary);
+    color: white;
+    font-size: .7rem;
+}
+
+.Home .subText {
+    color: gray;
+    display: flex;
+    gap: 12px;
+    font-family: 'Protest Riot', sans-serif;
+    align-items: center;
+}
