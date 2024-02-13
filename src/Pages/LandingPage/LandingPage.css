@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+.LandingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    border: solid black 1px;
+    background-image: url('../../Assets//heroImae.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.LandingPage>h1 {
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.allCatagories {
+    width: 60%;
+    /* border: solid yellow 1px; */
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 12px 0;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--css-tertiary);
+    border-radius: 12px;
+    position: relative;
+}
+
+.homePaper {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    color: black !important;
+    height: 100%;
+}
+.homePaper h2 {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.banquet {
+    background-image: url('https://images.unsplash.com/photo-1523975804200-ad0324aaf9ed?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.fitness {
+    background-image: url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.education {
+    background-image: url('https://plus.unsplash.com/premium_photo-1661947876256-b44c1bfc04d2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww');
+}
+
+.hotel {
+    background-image: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.coworking {
+    background-image: url('https://plus.unsplash.com/premium_photo-1661879435429-a396d927c686?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.realestate {
+    background-image: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D');
+}
+
+.homePaper:hover {
+    background-image: none;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1)
+}

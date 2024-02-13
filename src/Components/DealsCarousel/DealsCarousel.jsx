@@ -38,7 +38,7 @@ function DealsCarousel() {
                 </Paper>
             </Link>
 
-
+{/* 
             <Link to='/coworkingspaces' style={{textDecoration : "none", color : "inherit"}}>
                 <Paper elevation={3} className="paper">
                     <h2>25% <span style={{ color: "green" }} >OFF</span></h2>
@@ -58,7 +58,8 @@ function DealsCarousel() {
                     <h2>12% <span style={{ color: "green" }} >OFF</span></h2>
                     <p>Education Institutes</p>
                 </Paper>
-            </Link>
+            </Link> */}
+            
         </Box >
     );
 }
