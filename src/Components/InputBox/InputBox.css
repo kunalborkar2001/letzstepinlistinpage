@@ -3,6 +3,7 @@
 .InputBox  {
     width: 100%;
     position: relative;
+    z-index: 99;
 }
 
 .InputBox .form-control {
@@ -13,6 +14,7 @@
     color: var(--css-primary);
     /* color: #000; */
     font-family: 'Roboto Mono', monospace;
+    background: white;
 }
 
 .InputBox .form-control input {

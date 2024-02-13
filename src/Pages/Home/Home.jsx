@@ -65,7 +65,7 @@ const Home = () => {
                             Buy
                         </Fab>
                     </Box>
-                    
+
                 </div>
                 <div className='right'>
                     <div className='locationCombine'>
@@ -89,8 +89,12 @@ const Home = () => {
             </div>
             <div className='HomeRight'>
                 <div className='topDeals'>
-                        <h1 className='topDealsHeading'>Top Deals</h1>
-                        <DealsCarousel />
+                    <h1 className='topDealsHeading'>Top Deals</h1>
+                    <DealsCarousel />
+                    <div className='toggleSwitcher'>
+                        <Typography component="legend" variant="button" fontSize="small">Updates</Typography>
+                        <ToggleSwitch />
+                    </div>
                 </div>
                 <div className='ListNav'>
                     <InputBox />
