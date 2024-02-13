@@ -57,3 +57,12 @@
 .InputBox .spanText {
     font-size: 44px;
 }
+
+
+@media screen and (max-width: 1162px) {
+    .InputBox .form-control  {
+        width: 93%;
+    }
+}
+
+

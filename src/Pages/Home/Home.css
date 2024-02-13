@@ -134,7 +134,7 @@
 .Home .HomeLeft .right {
     margin-left: 10px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     text-align: center;
     gap: 5vh;
@@ -191,6 +191,7 @@
     display: flex;
     gap: 12px;
     margin-top: 46px;
+    margin-bottom: 50px;
 }
 
 
@@ -202,3 +203,30 @@
     gap: 12px;
 }
 
+
+
+
+
+@media screen and (max-width: 1279px) {
+    .locationCombine {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1162px) {
+    .Home {
+        flex-direction: column;
+    }
+    .HomeLeft {
+        min-width: 100vw;
+    }
+
+    .HomeRight {
+        width: 100%;
+    } 
+
+    .iframe {
+        width: 80vw;
+        border: 8px;
+    }
+}

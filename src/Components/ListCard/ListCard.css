@@ -5,6 +5,7 @@
     /* width: 100%; */
     border-radius: 15px;
     min-height: 10vh;
+    position: relative;
     padding: 12px;
     display: flex;
     /* align-items: center; */
@@ -14,7 +15,7 @@
 }
 
 .ListCard:hover {
-    border : 2px solid var(--css-primary);
+    border: 2px solid var(--css-primary);
 }
 
 .ListCard .left {
@@ -28,7 +29,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
-.ListCard .left img{
+.ListCard .left img {
     height: 100%;
     width: 100%;
 }
@@ -41,6 +42,7 @@
     gap: 12px;
 
 }
+
 .ListCard .right h1 {
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
@@ -86,4 +88,34 @@
     background: green;
     color: white;
     font-size: .5rem;
+}
+
+.ListCard .heart {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 519px) {
+
+    .ListCard .right h1 {
+        /* font-size: 1rem; */
+    }
+    .ListCard .subText p{
+        /* font-size: 8px; */
+    }
+    .ListCard .details ul li {
+        /* font-size: 10px; */
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .ListCard {
+        flex-direction: column;
+        text-align: center
+        
+    }
+    .ListCard .buttons {
+        justify-content: space-around;
+    }
 }

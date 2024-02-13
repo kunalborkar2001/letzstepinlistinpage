@@ -78,10 +78,12 @@ const Home = () => {
                             <iframe src="https://www.google.com/maps/embed?pb=!4v1707572363883!6m8!1m7!1sCAoSK0FGMVFpcE1oWFlGcFBtZXRTc29JM0N1WHNIcm5VNkprSDA5MTBNak1lVkE.!2m2!1d18.6228354!2d73.7583772!3f303.09356239173!4f-2.197604200057924!5f0.4000000000000002"
                                 height='300'
                                 width='400'
-                                style={{ border: "0", borderRadius: "42px" }}
+                                style={{ border: "0", borderRadius: "12px" }}
                                 loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"
                                 title='none'
+                                className='iframe'
+
                             ></iframe>
                         </div>
                     </div>
