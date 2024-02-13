@@ -27,7 +27,7 @@
     /* border: solid lawngreen 3px; */
     position: relative;
     border: silver 1px solid;
-    border-radius: 0 0 12px 12px
+    border-radius:12px
 }
 
 .HomeLeft .BigImg {

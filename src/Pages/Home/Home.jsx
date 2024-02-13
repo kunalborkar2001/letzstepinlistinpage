@@ -16,16 +16,20 @@ import './Home.css';
 import ToggleSwitch from '../../Components/ToggleSwitch/ToggleSwitch';
 import { Typography } from '@mui/material';
 import DealsCarousel from '../../Components/DealsCarousel/DealsCarousel';
+import ContactUsPopUp from '../../Components/ContactUsPopUp/ContactUsPopUp';
 
 const Home = ({ Data }) => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     const [selectedCard, setSelectedCard] = useState(null);
+    const [isFormPopOpen, setIsFormPopOpen] = useState(false);
 
     const toggleDrawer = () => {
         setIsDrawerOpen(!isDrawerOpen);
     };
 
-   
+    const toggleContactPopup = () => {
+        setIsFormPopOpen(!isFormPopOpen);
+    };
 
     const handleCardClick = (cardData) => {
         setSelectedCard(cardData);
@@ -40,10 +44,11 @@ const Home = ({ Data }) => {
                     <img src={selectedCard ? selectedCard.image_url : Data[0].image_url} alt="kuanl" />
                 </div>
                 <div className='BigHead'>
-                <h1>{selectedCard ? selectedCard.name : Data[0].name}</h1>
-                    <Box sx={{ '& > :not(style)': { m: 1 } }}>
+                    <h1>{selectedCard ? selectedCard.name : Data[0].name}</h1>
+
+                    <Box sx={{ '& > :not(style)': { m: 1 } }} onClick={toggleContactPopup}>
                         <Fab variant="extended" className='contact'>
-                            <ConnectWithoutContactIcon sx={{ mr: 1 }} fontSize="small" />
+                            <ConnectWithoutContactIcon sx={{ mr: 1 }} fontSize="small"  />
                             Contact
                         </Fab>
                     </Box>
@@ -70,17 +75,17 @@ const Home = ({ Data }) => {
                     <Box sx={{ '& > :not(style)': { m: 1 } }}>
                         <Fab variant="extended" className='buy'>
                             <ShoppingCartIcon sx={{ mr: 1 }} fontSize="small" />
-                            Buy
+                            {selectedCard ? selectedCard.action : Data[0].action}
                         </Fab>
                     </Box>
-                    <p className="price">₹{selectedCard ? selectedCard.price: Data[0].price}</p>
+                    <p className="price">₹{selectedCard ? selectedCard.price : Data[0].price}</p>
 
                 </div>
                 <div className='right'>
                     <div className='locationCombine'>
                         <div className='location'>
                             <h1><EditLocationAltIcon />Location</h1>
-                            <h3>{selectedCard ? selectedCard.location  : Data[0].location}</h3>
+                            <h3>{selectedCard ? selectedCard.location : Data[0].location}</h3>
                             <h3>411041</h3>
                         </div>
                         <div className='iFrame'>
@@ -114,16 +119,18 @@ const Home = ({ Data }) => {
                     {Data.map((elem, index) => (
                         <ListCard
                             key={index}
-                            listImage = {elem.image_url}
-                            ListName = {elem.name}
-                            ListPrice = {elem.price}
-                            onClick={() => handleCardClick(elem)} 
+                            listImage={elem.image_url}
+                            ListName={elem.name}
+                            ListPrice={elem.price}
+                            action={elem.action}
+                            onClick={() => handleCardClick(elem)}
                         />
                     ))}
                 </div>
             </div>
             {/* Render the BottomDrawer component */}
             <BottomDrawer open={isDrawerOpen} onClose={toggleDrawer} />
+             <ContactUsPopUp open={isFormPopOpen} onClose={toggleContactPopup}/>
         </div>
     );
 };

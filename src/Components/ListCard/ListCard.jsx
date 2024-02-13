@@ -9,7 +9,7 @@ import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
 import './ListCard.css';
 
-const ListCard = ({ listImage, ListName, ListPrice, onClick }) => {
+const ListCard = ({ listImage, ListName, ListPrice, onClick, action }) => {
     return (
         <div className="ListCard" onClick={onClick}>
             <div className="left">
@@ -40,7 +40,7 @@ const ListCard = ({ listImage, ListName, ListPrice, onClick }) => {
                     <Box sx={{ '& > :not(style)': { m: 1 }, }}>
                         <Fab variant="extended" className='buy' size="small" >
                             <ShoppingCartIcon sx={{ mr: 1, }} fontSize="small" />
-                            Buy
+                            {action}
                         </Fab>
                     </Box>
                 </div>
