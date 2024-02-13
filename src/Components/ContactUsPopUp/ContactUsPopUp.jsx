@@ -80,6 +80,7 @@ function ContactUsPopUp({ open, onClose }) {
                         Close
                     </Button>
                 </Modal.Footer>
+                
             </Modal>
         </>
     );
