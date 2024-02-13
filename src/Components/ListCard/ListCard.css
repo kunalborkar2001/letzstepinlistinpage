@@ -96,16 +96,16 @@
     right: 0;
 }
 
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 487px) {
 
     .ListCard .right h1 {
-        /* font-size: 1rem; */
+        font-size: 1rem;
     }
     .ListCard .subText p{
-        /* font-size: 8px; */
+        font-size: 8px;
     }
     .ListCard .details ul li {
-        /* font-size: 10px; */
+        font-size: 10px;
     }
 }
 
@@ -115,6 +115,11 @@
         text-align: center
         
     }
+    
+    .ListCard .details .price {
+        font-size: 1.4rem;
+    }
+
     .ListCard .buttons {
         justify-content: space-around;
     }

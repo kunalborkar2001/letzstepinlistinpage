@@ -66,3 +66,12 @@
 }
 
 
+@media screen and (max-width: 487px) {
+    .ListCard .left {
+        height: 100;
+        width: 172px;
+    }
+    .form-control {
+        height: 58px;
+    }
+}

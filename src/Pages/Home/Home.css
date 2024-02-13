@@ -54,7 +54,7 @@
     flex: 1;
     /* border: solid 1px ; */
     padding: 10px;
-    border-radius: 0 0 12px 12px;
+    border-radius:  12px;
     border: silver 1px solid;
 }
 
@@ -228,5 +228,12 @@
     .iframe {
         width: 80vw;
         border: 8px;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .HomeLeft .BigHead h1 {
+        font-size: 1rem;
+        text-align: center;
     }
 }
