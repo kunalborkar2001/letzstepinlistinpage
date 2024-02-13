@@ -29,10 +29,11 @@ const Home = ({ Data }) => {
 
     const handleCardClick = (cardData) => {
         setSelectedCard(cardData);
+        window.scrollTo(0, 0);
     };
 
     return (
-        <div className='Home'>
+        <div className='Home' id='Home'>
             <div className='HomeLeft'>
                 <img className='companyLogo' src="https://www.letzstepin.com/logo13.png" alt="letzstepin" />
                 <div className='BigImg'>
