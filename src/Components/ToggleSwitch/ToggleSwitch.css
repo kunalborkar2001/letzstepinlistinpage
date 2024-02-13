@@ -28,7 +28,7 @@
     content: '';
     display: block;
     height: 100%;
-    width: 31pxpx;
+    width: 31px;
   }
   
   .ToggleSwitch .checkbox-wrapper-25 input[type="checkbox"]:checked {

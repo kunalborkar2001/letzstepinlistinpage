@@ -87,7 +87,7 @@ const Home = ({ Data }) => {
                                 width='400'
                                 style={{ border: "0", borderRadius: "12px" }}
                                 loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"
+                                referrerPolicy="no-referrer-when-downgrade"
                                 title='none'
                                 className='iframe'
 

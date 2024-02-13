@@ -3,7 +3,7 @@ import './ToggleSwitch.css'
 const ToggleSwitch = () => {
     return (
         <div className='ToggleSwitch'>
-            <div class="checkbox-wrapper-25">
+            <div className="checkbox-wrapper-25">
                 <input type="checkbox" />
             </div>
         </div>
