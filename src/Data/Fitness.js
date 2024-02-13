@@ -1,13 +1,13 @@
-import fitness1 from '../Assets/Fitness/fitness1.jpeg'
-import fitness2 from '../Assets/Fitness/fitness2.jpeg'
-import fitness3 from '../Assets/Fitness/fitness3.jpeg'
-import fitness4 from '../Assets/Fitness/fitness4.jpeg'
-import fitness5 from '../Assets/Fitness/fitness5.jpeg'
-import fitness6 from '../Assets/Fitness/fitness6.jpeg'
-import fitness7 from '../Assets/Fitness/fitness7.jpeg'
-import fitness8 from '../Assets/Fitness/fitness8.jpeg'
-import fitness9 from '../Assets/Fitness/fitness9.jpeg'
-import fitness10 from '../Assets/Fitness/fitness10.jpeg'
+let fitness1  = "https://plus.unsplash.com/premium_photo-1664109999537-088e7d964da2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D"
+let fitness2  = "https://images.unsplash.com/photo-1679679008578-e3b6406bdb47?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D"
+let fitness3  = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
+let fitness4  = "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
+let fitness5  = "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
+let fitness6  = "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
+let fitness7  = "https://plus.unsplash.com/premium_photo-1672280783572-4a254a8e71d5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
+let fitness8  = "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
+let fitness9  = "https://images.unsplash.com/photo-1535743686920-55e4145369b9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
+let fitness10 = "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGZpdG5lc3N8ZW58MHx8MHx8fDA%3D"
 
 export const fitnessData = [
     {
