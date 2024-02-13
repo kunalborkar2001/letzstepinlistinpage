@@ -9,8 +9,11 @@
 .Home .ListNav {
     height: 10vh;
     width: 100%;
-    position: sticky;
-    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
 }
 
 .HomeLeft {
@@ -49,7 +52,7 @@
 
 .HomeRight {
     /* width: 40vw; */
-    height: 110vh;
+    height: 100vh;
     overflow: scroll;
     flex: 1;
     /* border: solid 1px ; */
@@ -236,4 +239,5 @@
         font-size: 1rem;
         text-align: center;
     }
+   
 }

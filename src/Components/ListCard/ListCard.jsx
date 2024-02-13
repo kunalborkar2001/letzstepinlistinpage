@@ -1,21 +1,22 @@
-import Checkbox from '@mui/material/Checkbox';
-import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
-import Favorite from '@mui/icons-material/Favorite';
+// ListCard.js
+import React from 'react';
 import Box from '@mui/material/Box';
 import Fab from '@mui/material/Fab';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Checkbox from '@mui/material/Checkbox';
+import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
+import Favorite from '@mui/icons-material/Favorite';
+import './ListCard.css';
 
-import "./ListCard.css"
-
-const ListCard = () => {
+const ListCard = ({ listImage, ListName, ListPrice, onClick }) => {
     return (
-        <div className="ListCard">
+        <div className="ListCard" onClick={onClick}>
             <div className="left">
-                <img src="https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=800" alt="kunalborkar2001@gmai.com" />
+                <img src={listImage} alt="kunalborkar2001@gmai.com" />
             </div>
             <div className="right">
-                <h1>Old jersey road 14 Lorem ipsum dolor sit.</h1>
+                <h1>{ListName}</h1>
                 <div className="subText">
                     <p>Appartment</p>
                     <p>|</p>
@@ -26,19 +27,17 @@ const ListCard = () => {
                         <li>lorem</li>
                         <li>lorem</li>
                         <li>lorem</li>
-                        <li className="price">$20,000</li>
+                        <li className="price">₹{ListPrice}</li>
                     </ul>
                 </div>
                 <div className='buttons'>
                     <Box sx={{ '& > :not(style)': { m: 1 } }}>
-
                         <Fab variant="extended" className='contact' size="small" >
                             <ConnectWithoutContactIcon sx={{ mr: 1 }} fontSize="small" />
                             Contact
                         </Fab>
                     </Box>
-                    <Box sx={{ '& > :not(style)': { m: 1 },  }}>
-
+                    <Box sx={{ '& > :not(style)': { m: 1 }, }}>
                         <Fab variant="extended" className='buy' size="small" >
                             <ShoppingCartIcon sx={{ mr: 1, }} fontSize="small" />
                             Buy
@@ -50,7 +49,7 @@ const ListCard = () => {
                 <Checkbox color='secondary' icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default ListCard
+export default ListCard;

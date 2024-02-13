@@ -115,7 +115,10 @@
         text-align: center
         
     }
-    
+    .ListCard .left {
+        height: 99px;
+        width: 150px;
+    }
     .ListCard .details .price {
         font-size: 1.4rem;
     }
