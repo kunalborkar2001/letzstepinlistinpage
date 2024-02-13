@@ -1,31 +1,35 @@
+import React from 'react';
 import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
+import MasonryImageList from '../../Components/BigImageList/BigImageList';
+import SocialNetwork from '../../Components/SocialNetwork/SocialNetwork';
+import './BottomDrawer.css';
 
-export default function BottomDrawer() {
-  const [state, setState] = React.useState({
-    bottom: false,
-  });
-
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
-      return;
-    }
-
-    setState({ ...state, [anchor]: open });
-  };
-
+export default function BottomDrawer({ open, onClose }) {
   return (
-    <div>
-        <React.Fragment key={'bottom'}>
-          <Button onClick={toggleDrawer('bottom', true)}>Bottom</Button>
-          <Drawer
-            anchor={'bottom'}
-            open={state['bottom']}
-            onClose={toggleDrawer('bottom', false)}
-          >
-            Kunal
-          </Drawer>
-        </React.Fragment>
+    <div className='BottomDrawer'>
+      <Drawer
+        anchor={'bottom'}
+        open={open}
+        onClose={onClose}
+        sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+      >
+        <div className='drawerContent'>
+          <div style={{ display: "flex", flexDirection: "row" , alignItems : "center"}}>
+            <div className='masonryImageListContainer'>
+              <MasonryImageList />
+            </div>
+            <div className='description'>
+              <h2>Description</h2>
+              <p>Lorem ipsum dolor sit amet,<br />
+               consectetur adipiscing elit. Nulla tincidunt <br />
+                purus nec ante tristique, vitae finibus magna bibendum.</p>
+            </div>
+          </div>
+          <div className='social'>
+            <SocialNetwork />
+          </div>
+        </div>
+      </Drawer>
     </div>
   );
 }

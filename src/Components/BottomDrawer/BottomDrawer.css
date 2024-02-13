@@ -1,0 +1,52 @@
+/* BottomDrawer.css */
+.drawerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover; /* Ensure the background image covers the entire container */
+    height: 100%; /* Set height to make the background image visible */
+}
+
+.masonryImageListContainer {
+    flex: 1;
+    overflow-y: auto;
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.description {
+    margin: 20px;
+    
+}
+
+.description h2 {
+    font-size: 3rem;
+    margin-bottom: 22px;
+}
+
+.description p {
+    font-size: 1rem;
+}
+
+.social {
+    position: absolute;
+    bottom: 12px; /* Adjust the positioning as needed */
+    right: 12px;
+    z-index: 33;
+}
+
+
+@media (max-width: 768px) {
+    .description {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .drawerContent {
+        background-size: contain; /* Adjust background size for smaller screens */
+    }
+}
+

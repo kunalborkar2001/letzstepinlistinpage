@@ -47,7 +47,7 @@
 
 .HomeRight {
     /* width: 40vw; */
-    height: 100vh;
+    height: 110vh;
     overflow: scroll;
     flex: 1;
     /* border: solid 1px ; */
@@ -55,6 +55,22 @@
     border-radius: 0 0 12px 12px;
     border: silver 1px solid;
 }
+
+.HomeRight .topDeals {
+    border : silver 1px solid;
+    min-height: 20vh;
+    text-align: center;
+    width: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topDealsHeading {
+    font-size: 2rem;
+}
+
 
 .HomeLeft .BigImg {
     /* border: solid yellow; */
@@ -91,21 +107,45 @@
 .Home .imageGrid {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
     padding: 14px;
 }
 
-.Home .imageGrid .right {
-    margin-left: 10px;
+.imageGrid .iFrame {
+  border: solid yellow 1px;
 }
 
-.Home .imageGrid .right h1 {
+.imageGrid .iFrame iframe {
+  
+}
+
+.Home .HomeLeft .right {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5vh;
+}
+
+.right .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    margin-bottom: 10px;
+}
+
+
+.Home .HomeLeft .right h1 {
     font-size: 2rem;
     margin-top: 12px;
     margin-bottom: 12px;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -122,6 +162,34 @@
 }
 
 
+
 .Home .buy:hover {
     color: var(--css-secondary);
 }
+
+.Home .more {
+    background: var(--css-primary);
+    color: white;
+    font-size: .5rem;
+}
+
+.more:hover {
+    color: black;
+}
+
+
+.locationCombine {
+    display: flex;
+    gap: 12px;
+    margin-top: 46px;
+}
+
+
+.buyMore {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+}
+
