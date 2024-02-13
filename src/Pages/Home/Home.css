@@ -4,7 +4,7 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
-} 
+}
 
 .Home .ListNav {
     height: 10vh;
@@ -27,7 +27,7 @@
     /* border: solid lawngreen 3px; */
     position: relative;
     border: silver 1px solid;
-    border-radius:0 0 12px 12px
+    border-radius: 0 0 12px 12px
 }
 
 .HomeLeft .BigImg {
@@ -57,12 +57,18 @@
     flex: 1;
     /* border: solid 1px ; */
     padding: 10px;
-    border-radius:  12px;
+    border-radius: 12px;
     border: silver 1px solid;
 }
 
+.Home .price {
+    font-size: 1.6rem;
+    color: var(--css-primary);
+    font-weight: 900;
+}
+
 .HomeRight .topDeals {
-    border : silver 1px solid;
+    border: silver 1px solid;
     min-height: 20vh;
     text-align: center;
     width: 100%;
@@ -102,7 +108,7 @@
     font-family: 'Roboto Slab', serif;
 }
 
-.HomeLeft .BigHead .contact{
+.HomeLeft .BigHead .contact {
     background: var(--css-secondary);
     color: white;
     font-size: .7rem;
@@ -127,12 +133,10 @@
 }
 
 .imageGrid .iFrame {
-  border: solid yellow 1px;
+    border: solid yellow 1px;
 }
 
-.imageGrid .iFrame iframe {
-  
-}
+.imageGrid .iFrame iframe {}
 
 .Home .HomeLeft .right {
     margin-left: 10px;
@@ -220,13 +224,14 @@
     .Home {
         flex-direction: column;
     }
+
     .HomeLeft {
         min-width: 100vw;
     }
 
     .HomeRight {
         width: 100%;
-    } 
+    }
 
     .iframe {
         width: 80vw;
@@ -239,5 +244,5 @@
         font-size: 1rem;
         text-align: center;
     }
-   
+
 }

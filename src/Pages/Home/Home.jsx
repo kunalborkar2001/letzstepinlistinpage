@@ -73,6 +73,7 @@ const Home = ({ Data }) => {
                             Buy
                         </Fab>
                     </Box>
+                    <p className="price">₹{selectedCard ? selectedCard.price: Data[0].price}</p>
 
                 </div>
                 <div className='right'>
