@@ -9,12 +9,11 @@ import { educationInstituteData } from "./Data/EducationInstitute";
 
 import './App.css';
 import LandingPage from "./Pages/LandingPage/LandingPage";
-import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      
       <Routes>
         <Route path="/" exact element={<LandingPage />} />
         <Route path='/hotels' element={<Home Data={hotelData} />} />

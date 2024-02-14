@@ -11,11 +11,22 @@ const Navbar = () => {
             <div className="NavMid">
 
                 <Link style={{ textDecoration: "none", color: "inherit" }} to="/" >
-                    <p>Home</p>
+                    <button>
+                        <span>Home</span>
+                    </button>
                 </Link>
-                
-                <p>About Us</p>
-                <p>Contact Us</p>
+                <Link style={{ textDecoration: "none", color: "inherit" }}  >
+                    <button>
+                        <span>About Us</span>
+                    </button>
+                </Link>
+                <Link style={{ textDecoration: "none", color: "inherit" }}  >
+                    <button>
+                        <span>Contact Us</span>
+                    </button>
+                </Link>
+
+            
 
             </div>
             <div>
