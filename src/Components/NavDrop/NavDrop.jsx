@@ -27,12 +27,12 @@ export default function NavDrop() {
                 <MenuItem value="">
                     <em>None</em>
                 </MenuItem>
-                <MenuItem value={"Banquet"}><Link style={{ textDecoration: "none", color: "inherit" }} to='/banquet'>Banquet</Link></MenuItem>
-                <MenuItem value={"Hotels"}><Link style={{ textDecoration: "none", color: "inherit" }} to='/hotels'>Hotels</Link></MenuItem>
-                <MenuItem value={"Education Institute"}><Link style={{ textDecoration: "none", color: "inherit" }} to='/educationinstitute'>Education Institute</Link></MenuItem>
-                <MenuItem value={"Co-working"}><Link style={{ textDecoration: "none", color: "inherit" }} to='/coworkingspaces'>Co-working</Link></MenuItem>
-                <MenuItem value={"Fitness"}><Link style={{ textDecoration: "none", color: "inherit" }} to='/fitness'>Fitness</Link></MenuItem>
-                <MenuItem value={"Real Estate"}><Link style={{ textDecoration: "none", color: "inherit" }} to='/realestate'>Real Estate</Link></MenuItem>
+                <Link style={{ textDecoration: "none", color: "inherit" }} to='/banquet'><MenuItem value={"Banquet"}>Banquet</MenuItem></Link>
+                <Link style={{ textDecoration: "none", color: "inherit" }} to='/hotels'><MenuItem value={"Hotels"}>Hotels</MenuItem></Link>
+                <Link style={{ textDecoration: "none", color: "inherit" }} to='/educationinstitute'><MenuItem value={"Education Institute"}>Education Institute</MenuItem></Link>
+                <Link style={{ textDecoration: "none", color: "inherit" }} to='/coworkingspaces'><MenuItem value={"Co-working"}>Co-working</MenuItem></Link>
+                <Link style={{ textDecoration: "none", color: "inherit" }} to='/fitness'><MenuItem value={"Fitness"}>Fitness</MenuItem></Link>
+                <Link style={{ textDecoration: "none", color: "inherit" }} to='/realestate'><MenuItem value={"Real Estate"}>Real Estate</MenuItem></Link>
 
             </Select>
         </FormControl>
