@@ -1,18 +1,18 @@
-import coWorking1 from '../Assets/Co-Working/coWorking1.jpeg'
-import coWorking2 from '../Assets/Co-Working/coWorking2.jpeg'
-import coWorking3 from '../Assets/Co-Working/coWorking3.jpeg'
-import coWorking4 from '../Assets/Co-Working/coWorking4.jpeg'
-import coWorking5 from '../Assets/Co-Working/coWorking5.jpeg'
-import coWorking6 from '../Assets/Co-Working/coWorking6.jpeg'
-import coWorking7 from '../Assets/Co-Working/coWorking7.jpeg'
-import coWorking8 from '../Assets/Co-Working/coWorking8.jpeg'
-import coWorking9 from '../Assets/Co-Working/coWorking9.jpeg'
-import coWorking10 from '../Assets/Co-Working/coWorking10.jpeg'
+let coWorking1 = 'https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
+let coWorking2 = 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
+let coWorking3 = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
+let coWorking4 = 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
+let coWorking5 = 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
+let coWorking6 = 'https://images.unsplash.com/photo-1520881363902-a0ff4e722963?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D'
+let coWorking7 = 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D'
+let coWorking8 = 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D'
+let coWorking9 = 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNvJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D'
+let coWorking10 = 'https://images.unsplash.com/photo-1522071901873-411886a10004?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNvJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D'
 
 
 export const coworkingSpaceData = [
     {
-        "image_url": coWorking2,
+        "image_url": coWorking1,
         "name": "TechHub",
         "location": "789 Oak Avenue, Somewhereville, USA",
         "price_per_desk": 350,
@@ -20,7 +20,7 @@ export const coworkingSpaceData = [
         "action" : "Book"
     },
     {
-        "image_url": coWorking1,
+        "image_url": coWorking2,
         "name": "Innovate CoLab",
         "location": "456 Elm Street, Anytown, USA",
         "price_per_desk": 200,
