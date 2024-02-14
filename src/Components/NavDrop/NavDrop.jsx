@@ -24,9 +24,6 @@ export default function NavDrop() {
                 label="Catagory"
                 onChange={handleChange}
             >
-                <MenuItem value="">
-                    <em>None</em>
-                </MenuItem>
                 <Link style={{ textDecoration: "none", color: "inherit" }} to='/banquet'><MenuItem value={"Banquet"}>Banquet</MenuItem></Link>
                 <Link style={{ textDecoration: "none", color: "inherit" }} to='/hotels'><MenuItem value={"Hotels"}>Hotels</MenuItem></Link>
                 <Link style={{ textDecoration: "none", color: "inherit" }} to='/educationinstitute'><MenuItem value={"Education Institute"}>Education Institute</MenuItem></Link>
