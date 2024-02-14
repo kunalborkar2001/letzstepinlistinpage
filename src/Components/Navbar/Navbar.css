@@ -5,7 +5,7 @@
     justify-content: space-around;
     /* border: solid black 1px; */
     z-index: 999;
-    background: #00000021;
+    /* background: #00000021; */
 }
 
 .NavLogo {
@@ -40,14 +40,14 @@
     text-transform: uppercase;
     cursor: pointer;
     transform: skew(-21deg);
-  }
-  
-  .NavMid span {
+}
+
+.NavMid span {
     display: inline-block;
     transform: skew(21deg);
-  }
-  
-  .NavMid button::before {
+}
+
+.NavMid button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -58,15 +58,20 @@
     opacity: 0;
     z-index: -1;
     transition: all 0.5s;
-  }
-  
-  .NavMid button:hover {
+}
+
+.NavMid button:hover {
     color: #fff;
-  }
-  
-  .NavMid button:hover::before {
+}
+
+.NavMid button:hover::before {
     left: 0;
     right: 0;
     opacity: 1;
-  }
+}
 
+@media screen and (max-width: 579px) {
+    .NavMid button  {
+        padding: 10px 6px;
+    }
+}

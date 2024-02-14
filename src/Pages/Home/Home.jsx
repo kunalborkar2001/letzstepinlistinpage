@@ -39,7 +39,7 @@ const Home = ({ Data }) => {
 
     return (
         <>
-            <Navbar />
+            <Navbar showCatagory/>
             <div className='Home' id='Home'>
                 <div className='HomeLeft'>
                     <img className='companyLogo' src="https://www.letzstepin.com/logo13.png" alt="letzstepin" />
