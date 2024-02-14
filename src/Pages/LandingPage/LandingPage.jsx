@@ -1,14 +1,18 @@
-import * as React from 'react';
+import React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import "./LandingPage.css"
 import { Link } from 'react-router-dom';
+
 import Navbar from '../../Components/Navbar/Navbar'
 
+
 const LandingPage = () => {
+
+
   return (
     <>
-        <Navbar />
+      <Navbar showLogo />
       <div className="LandingPage">
         <h1 className='LandingHeading'>Get What you Love !</h1>
         <div className="allCatagories">
@@ -36,4 +40,4 @@ const LandingPage = () => {
   )
 }
 
-export default LandingPage
+export default LandingPage;

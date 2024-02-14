@@ -16,6 +16,11 @@ function ContactUsPopUp({ open, onClose }) {
         e.preventDefault();
         // Here you can send the inquiry to the specified email address (LetzStepIn@gmail.com)
         // For demonstration purposes, we'll just set submitted to true
+        
+        // const subject = encodeURIComponent('Inquiry from ' + email);
+        // const body = encodeURIComponent(message);
+        // window.location.href = `mailto:LetzStepIn@Gmail.com?subject=${subject}&body=${body}`;
+
         setSubmitted(true);
     };
 
