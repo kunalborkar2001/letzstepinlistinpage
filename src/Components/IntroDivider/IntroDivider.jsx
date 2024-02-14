@@ -12,7 +12,6 @@ import deskBell from '../../Assets/desk-bell.png'
 import lounge from '../../Assets/lounge.png'
 import swiming from '../../Assets/swimming-pool.png'
 import Tooltip from '@mui/material/Tooltip';
-import zIndex from '@mui/material/styles/zIndex';
 
 export default function IntroDivider({ name, icon, description }) {
   return (
@@ -36,16 +35,14 @@ export default function IntroDivider({ name, icon, description }) {
           Services
         </Typography>
         <Stack direction="row" spacing={1}>
-          {/* <Chip color="primary" label="Parking" size="small" />
-          <Chip label="Lift" size="small" />
-          <Chip label="Rating" size="small" /> */}
+          
           <Breadcrumbs aria-label="breadcrumb">
             <Tooltip title="Wifi" placement="top" style={{ zIndex: 999 }}>
               <Typography
                 sx={{ display: 'flex', alignItems: 'center' }}
                 color="text.primary"
               >
-                <img className='DiverIcons' src={amenitiesIcon} sx={{ mr: 0.5 }} fontSize="inherit" />
+                <img className='DiverIcons' src={amenitiesIcon} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
               </Typography>
             </Tooltip>
             <Tooltip title="Food" placement="top" style={{ zIndex: 999 }}>
@@ -53,7 +50,7 @@ export default function IntroDivider({ name, icon, description }) {
                 sx={{ display: 'flex', alignItems: 'center' }}
                 color="text.primary"
               >
-                <img className='DiverIcons' src={deskBell} sx={{ mr: 0.5 }} fontSize="inherit" />
+                <img className='DiverIcons' src={deskBell} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
 
               </Typography>
             </Tooltip>
@@ -63,7 +60,7 @@ export default function IntroDivider({ name, icon, description }) {
                 sx={{ display: 'flex', alignItems: 'center' }}
                 color="text.primary"
               >
-                <img className='DiverIcons' src={lounge} sx={{ mr: 0.5 }} fontSize="inherit" />
+                <img className='DiverIcons' src={lounge} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
 
               </Typography>
             </Tooltip>
@@ -73,7 +70,7 @@ export default function IntroDivider({ name, icon, description }) {
                 sx={{ display: 'flex', alignItems: 'center' }}
                 color="text.primary"
               >
-                <img className='DiverIcons' src={swiming} sx={{ mr: 0.5 }} fontSize="inherit" />
+                <img className='DiverIcons' src={swiming} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
               </Typography>
             </Tooltip>
           </Breadcrumbs>
