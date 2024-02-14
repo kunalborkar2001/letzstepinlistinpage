@@ -118,7 +118,7 @@ const Home = ({ Data }) => {
                         <h1 className='topDealsHeading'>Top Deals</h1>
                         <DealsCarousel />
                         <div className='toggleSwitcher'>
-                            <Typography component="legend" variant="button" fontSize="small">Updates</Typography>
+                            <Typography component="legend" variant="button" fontSize="9px">Updates</Typography>
                             <ToggleSwitch />
                         </div>
                     </div>
