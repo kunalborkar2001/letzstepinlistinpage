@@ -3,7 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: solid black 1px;
+    /* border: solid black 1px; */
+    z-index: 999;
 }
 
 .NavLogo {
@@ -24,6 +25,14 @@
     gap: 4vw;
     position: relative;
     top: 9px;
+}
+
+
+.NavMid p {
+    padding: 10px;
+    border: solid green;
+    border-radius: 12px;
+    background: var(--css-tertiary);
 }
 
 
