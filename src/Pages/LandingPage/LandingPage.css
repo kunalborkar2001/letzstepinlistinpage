@@ -7,7 +7,7 @@
     justify-content: center;
     width: 100vw;
     min-height: 100vh;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background-image: url('https://images.unsplash.com/photo-1613325436307-5489b00ba07a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-position: center;
     background-size: cover;
@@ -30,10 +30,10 @@
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: var(--css-tertiary);
     border-radius: 12px;
     position: relative;
     gap: 30px;
+    backdrop-filter: blur(10px);
 }
 
 .homePaper {
@@ -44,12 +44,15 @@
     justify-content: center;
     font-size: 2rem;
     text-align: center;
-    color: black !important;
+    color: white !important;
     height: 100%;
+    
 }
 .homePaper h2 {
     position: absolute;
     bottom: 0;
+    
+    font-size: 1rem;
 }
 
 
@@ -78,7 +81,7 @@
 }
 
 .homePaper:hover {
-    background-image: none;
+    background-image: rgba(255, 0, 0, 0.167);
     transition: all .2s ease-in-out;
     transform: scale(1.1)
 }
