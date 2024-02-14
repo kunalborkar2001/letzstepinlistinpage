@@ -52,7 +52,7 @@
 
 .HomeRight {
     /* width: 40vw; */
-    height: 100vh;
+    /* height: 100vh; */
     overflow: scroll;
     flex: 1;
     /* border: solid 1px ; */
