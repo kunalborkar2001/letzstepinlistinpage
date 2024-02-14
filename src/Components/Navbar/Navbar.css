@@ -75,3 +75,10 @@
         padding: 10px 6px;
     }
 }
+
+@media screen and (max-width: 468px) {
+
+    .NavAbout , .NavContact {
+        display: none;
+}
+}

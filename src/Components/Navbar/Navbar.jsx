@@ -4,7 +4,7 @@ import NavDrop from "../NavDrop/NavDrop";
 
 
 
-const Navbar = ({ showLogo,showCatagory }) => {
+const Navbar = ({ showLogo, showCatagory }) => {
 
 
     return (
@@ -17,26 +17,32 @@ const Navbar = ({ showLogo,showCatagory }) => {
                 </Link>
             )}
             <div className="NavMid">
-                <Link style={{ textDecoration: "none", color: "inherit" }} to="/">
-                    <button>
-                        <span>Home</span>
-                    </button>
-                </Link>
-                <Link style={{ textDecoration: "none", color: "inherit" }} to="/about">
-                    <button>
-                        <span>About Us</span>
-                    </button>
-                </Link>
-                <Link style={{ textDecoration: "none", color: "inherit" }} to="/contact">
-                    <button>
-                        <span>Contact Us</span>
-                    </button>
-                </Link>
+                <div className="NavHome">
+                    <Link style={{ textDecoration: "none", color: "inherit" }} to="/">
+                        <button>
+                            <span>Home</span>
+                        </button>
+                    </Link>
+                </div>
+                <div className="NavAbout">
+                    <Link style={{ textDecoration: "none", color: "inherit" }} >
+                        <button>
+                            <span>About Us</span>
+                        </button>
+                    </Link>
+                </div>
+                <div className="NavContact">
+                    <Link style={{ textDecoration: "none", color: "inherit" }} >
+                        <button>
+                            <span>Contact Us</span>
+                        </button>
+                    </Link>
+                </div>
                 {showCatagory && (
                     <NavDrop />
                 )}
             </div>
-            
+
         </div>
     );
 };
