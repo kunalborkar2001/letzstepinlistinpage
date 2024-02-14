@@ -1,19 +1,26 @@
-import './IntroDivider.css'
-
-import * as React from 'react';
+import './IntroDivider.css';
+import { useState, useEffect } from 'react';
 import Card from '@mui/material/Card';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
-import amenitiesIcon from '../../Assets/amenities.png'
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import deskBell from '../../Assets/desk-bell.png'
-import lounge from '../../Assets/lounge.png'
-import swiming from '../../Assets/swimming-pool.png'
 import Tooltip from '@mui/material/Tooltip';
 
-export default function IntroDivider({ name, icon, description }) {
+export default function IntroDivider({ name, icon, description, amenitiesIcon, facilitiesIcon }) {
+  const [iconsData, setIconsData] = useState([]);
+
+  // Move the conditional logic to useEffect hook
+  useEffect(() => {
+    if (name === "Amenities") {
+      setIconsData(amenitiesIcon);
+    }
+    if (name === "Facilities") {
+      setIconsData(facilitiesIcon);
+    }
+  }, [name, amenitiesIcon, facilitiesIcon]);
+
   return (
     <Card variant="outlined" sx={{ maxWidth: 360 }}>
       <Box sx={{ p: 2 }}>
@@ -35,44 +42,17 @@ export default function IntroDivider({ name, icon, description }) {
           Services
         </Typography>
         <Stack direction="row" spacing={1}>
-          
           <Breadcrumbs aria-label="breadcrumb">
-            <Tooltip title="Wifi" placement="top" style={{ zIndex: 999 }}>
-              <Typography
-                sx={{ display: 'flex', alignItems: 'center' }}
-                color="text.primary"
-              >
-                <img className='DiverIcons' src={amenitiesIcon} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
-              </Typography>
-            </Tooltip>
-            <Tooltip title="Food" placement="top" style={{ zIndex: 999 }}>
-              <Typography
-                sx={{ display: 'flex', alignItems: 'center' }}
-                color="text.primary"
-              >
-                <img className='DiverIcons' src={deskBell} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
-
-              </Typography>
-            </Tooltip>
-
-            <Tooltip title="Dining" placement="top" style={{ zIndex: 999 }}>
-              <Typography
-                sx={{ display: 'flex', alignItems: 'center' }}
-                color="text.primary"
-              >
-                <img className='DiverIcons' src={lounge} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
-
-              </Typography>
-            </Tooltip>
-
-            <Tooltip title="Poll" placement="top" style={{ zIndex: 999 }}>
-              <Typography
-                sx={{ display: 'flex', alignItems: 'center' }}
-                color="text.primary"
-              >
-                <img className='DiverIcons' src={swiming} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
-              </Typography>
-            </Tooltip>
+            {iconsData.map((icon, index) => (
+              <Tooltip key={index} title={name} placement="top" style={{ zIndex: 999 }}>
+                <Typography
+                  sx={{ display: 'flex', alignItems: 'center' }}
+                  color="text.primary"
+                >
+                  <img className='DiverIcons' src={icon} sx={{ mr: 0.5 }} fontSize="inherit" alt='kunalborkar2001@gmail.com'/>
+                </Typography>
+              </Tooltip>
+            ))}
           </Breadcrumbs>
         </Stack>
       </Box>

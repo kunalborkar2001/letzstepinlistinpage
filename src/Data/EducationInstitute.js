@@ -1,3 +1,12 @@
+import icon1 from '../Assets/amenities/amenities.png'
+import icon2 from '../Assets/amenities/amenities1.png'
+import icon3 from '../Assets/amenities/amenities2.png'
+import icon4 from '../Assets/amenities/amenities3.png'
+import icon5 from '../Assets/amenities/amenities4.png'
+import icon6 from '../Assets/amenities/amenities5.png'
+import icon7 from '../Assets/amenities/amenities6.png'
+import icon8 from '../Assets/amenities/amenities7.png'
+
 import educationInstitute1 from '../Assets/EducationInstitute/EducationInstitute1.jpeg'
 import educationInstitute2 from '../Assets/EducationInstitute/EducationInstitute2.jpeg'
 import educationInstitute3 from '../Assets/EducationInstitute/EducationInstitute3.jpeg'
@@ -9,6 +18,7 @@ import educationInstitute8 from '../Assets/EducationInstitute/EducationInstitute
 import educationInstitute9 from '../Assets/EducationInstitute/EducationInstitute9.jpeg'
 import educationInstitute10 from '../Assets/EducationInstitute/EducationInstitute10.jpeg'
 
+
 export const educationInstituteData = [
     {
         "image_url": educationInstitute1,
@@ -18,7 +28,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
-        "facilities": "Auditorium, Art studios, Science labs"
+        "facilities": "Auditorium, Art studios, Science labs",
+        "amenitiesIcon": [icon2, icon3, icon4, icon1],
+      "facilitiesIcon": [icon5, icon7, icon6, icon8]
     },
     {
         "image_url": educationInstitute2,
@@ -28,7 +40,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Playground, Music rooms, Language labs, Outdoor spaces",
-        "facilities": "Dance studios, Media center, STEM labs"
+        "facilities": "Dance studios, Media center, STEM labs",
+        "amenitiesIcon": [icon3, icon1, icon2, icon4],
+      "facilitiesIcon": [icon6, icon5, icon8, icon7]
     },
     {
         "image_url": educationInstitute3,
@@ -38,7 +52,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Art rooms, Cafeteria, Outdoor play area",
-        "facilities": "Auditorium, Science labs, Music studios"
+        "facilities": "Auditorium, Science labs, Music studios",
+        "amenitiesIcon": [icon1, icon4, icon3, icon2],
+      "facilitiesIcon": [icon8, icon5, icon7, icon6]
     },
     {
         "image_url": educationInstitute4,
@@ -48,7 +64,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
-        "facilities": "Auditorium, Art studios, Science labs"
+        "facilities": "Auditorium, Art studios, Science labs",
+        "amenitiesIcon": [icon4, icon1, icon3, icon2],
+      "facilitiesIcon": [icon7, icon5, icon8, icon6]
     },
     {
         "image_url": educationInstitute5,
@@ -58,7 +76,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
-        "facilities": "Auditorium, Art studios, Science labs"
+        "facilities": "Auditorium, Art studios, Science labs",
+        "amenitiesIcon": [icon3, icon4, icon2, icon1],
+      "facilitiesIcon": [icon8, icon7, icon5, icon6]
     },
     {
         "image_url": educationInstitute6,
@@ -68,7 +88,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
-        "facilities": "Auditorium, Art studios, Science labs"
+        "facilities": "Auditorium, Art studios, Science labs",
+        "amenitiesIcon": [icon2, icon4, icon1, icon3],
+      "facilitiesIcon": [icon6, icon8, icon5, icon7]
     },
     {
         "image_url": educationInstitute7,
@@ -78,7 +100,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Playground, Music rooms, Language labs, Outdoor spaces",
-        "facilities": "Dance studios, Media center, STEM labs"
+        "facilities": "Dance studios, Media center, STEM labs",
+        "amenitiesIcon": [icon1, icon4, icon3, icon2],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": educationInstitute8,
@@ -88,7 +112,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Art rooms, Cafeteria, Outdoor play area",
-        "facilities": "Auditorium, Science labs, Music studios"
+        "facilities": "Auditorium, Science labs, Music studios",
+        "amenitiesIcon": [icon3, icon2, icon4, icon1],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": educationInstitute9,
@@ -98,7 +124,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
-        "facilities": "Auditorium, Art studios, Science labs"
+        "facilities": "Auditorium, Art studios, Science labs",
+        "amenitiesIcon": [icon4, icon2, icon3, icon1],
+      "facilitiesIcon": [icon7, icon8, icon5, icon6]
     },
     {
         "image_url": educationInstitute10,
@@ -108,7 +136,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
-        "facilities": "Auditorium, Art studios, Science labs"
+        "facilities": "Auditorium, Art studios, Science labs",
+        "amenitiesIcon": [icon1, icon2, icon4, icon3],
+      "facilitiesIcon": [icon5, icon8, icon6, icon7]
     },
     {
         "image_url": educationInstitute1,
@@ -118,7 +148,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Art rooms, Exhibition spaces, Outdoor studios",
-        "facilities": "Sculpture studios, Painting labs, Digital art rooms"
+        "facilities": "Sculpture studios, Painting labs, Digital art" ,
+        "amenitiesIcon": [icon3, icon1, icon4, icon2],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": educationInstitute2,
@@ -128,7 +160,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Language labs, Conversation practice areas, Cultural events",
-        "facilities": "Library, Multimedia rooms, Translation services"
+        "facilities": "Library, Multimedia rooms, Translation services",
+        "amenitiesIcon": [icon1, icon4, icon2, icon3],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": educationInstitute3,
@@ -138,7 +172,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Music rooms, Recording studios, Practice spaces",
-        "facilities": "Concert hall, Instrument rental, Music theory classrooms"
+        "facilities": "Concert hall, Instrument rental, Music theory class Rooms",
+        "amenitiesIcon": [icon2, icon3, icon1, icon4],
+      "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": educationInstitute4,
@@ -148,7 +184,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Dance studios, Performance spaces, Costume rooms",
-        "facilities": "Choreography labs, Dance history library, Ballet bars"
+        "facilities": "Choreography labs, Dance history library, Ballet bars",
+        "amenitiesIcon": [icon4, icon3, icon1, icon2],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": educationInstitute5,
@@ -158,7 +196,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Gymnasium, Athletic fields, Fitness center",
-        "facilities": "Sports science labs, Locker rooms, Training equipment"
+        "facilities": "Sports science labs, Locker rooms, Trainingequipment",
+        "amenitiesIcon": [icon1, icon4, icon2, icon3],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": educationInstitute6,
@@ -168,7 +208,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Cooking labs, Demonstration kitchens, Tasting rooms",
-        "facilities": "Bakery, Culinary library, Food photography studio"
+        "facilities": "Bakery, Culinary library, Food photography studio",
+        "amenitiesIcon": [icon1, icon2, icon4, icon3],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": educationInstitute7,
@@ -178,7 +220,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Anatomy labs, Simulation centers, Medical library",
-        "facilities": "Research labs, Hospital rotations, Clinical skills rooms"
+        "facilities": "Research labs, Hospital rotations, Clinical skills rooms",
+        "amenitiesIcon": [icon1, icon3, icon4, icon2],
+      "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": educationInstitute8,
@@ -188,7 +232,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Engineering labs, Design studios, Workshop",
-        "facilities": "Computer labs, Prototyping facilities, Research centers"
+        "facilities": "Computer labs, Prototyping facilities, Research centers" ,
+        "amenitiesIcon": [icon4, icon1, icon2, icon3],
+      "facilitiesIcon": [icon6, icon5, icon7, icon8]
     },
     {
         "image_url": educationInstitute9,
@@ -198,7 +244,9 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Law library, Moot courtrooms, Legal clinics",
-        "facilities": "Seminar rooms, Mock trial facilities, Internship placements"
+        "facilities": "Seminar rooms, Mock trial facilities, Internship placements",
+        "amenitiesIcon": [icon2, icon4, icon1, icon3],
+      "facilitiesIcon": [icon5, icon8, icon7, icon6]
     },
     {
         "image_url": educationInstitute10,
@@ -208,6 +256,8 @@ export const educationInstituteData = [
         "type": "Education Institutes",
         "action": "Book",
         "amenities": "Design studios, Fabrication labs, Exhibition spaces",
-        "facilities": "Digital fabrication center, Materials library, Design thinking workshops"
+        "facilities": "Digital fabrication center, Materials library, Design thinking workshops",
+        "amenitiesIcon": [icon4, icon3, icon1, icon2],
+      "facilitiesIcon": [icon8, icon6, icon5, icon7]
     }
 ];

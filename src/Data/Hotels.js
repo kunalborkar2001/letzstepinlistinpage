@@ -1,3 +1,12 @@
+import icon1 from '../Assets/amenities/amenities.png'
+import icon2 from '../Assets/amenities/amenities1.png'
+import icon3 from '../Assets/amenities/amenities2.png'
+import icon4 from '../Assets/amenities/amenities3.png'
+import icon5 from '../Assets/amenities/amenities4.png'
+import icon6 from '../Assets/amenities/amenities5.png'
+import icon7 from '../Assets/amenities/amenities6.png'
+import icon8 from '../Assets/amenities/amenities7.png'
+
 let hotel1 = 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWxzfGVufDB8fDB8fHww'
 let hotel2 = 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D'
 let hotel3 = 'https://images.unsplash.com/photo-1495365200479-c4ed1d35e1aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D'
@@ -10,6 +19,7 @@ let hotel9 = 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=900
 let hotel10 = 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fHww'
 let hotel11 = 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D'
 
+
 export const hotelData = [
     {
         "image_url": hotel2,
@@ -19,7 +29,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Spa, Pool, Restaurant, Gym",
-        "facilities": "Concierge, Room service, WiFi, Parking"
+        "facilities": "Concierge, Room service, WiFi, Parking",
+        "amenitiesIcon": [icon2, icon3, icon4, icon1],
+        "facilitiesIcon": [icon5, icon7, icon6, icon8]
     },
     {
         "image_url": hotel1,
@@ -29,7 +41,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Beach access, Tennis court, Bar, Fitness center",
-        "facilities": "Conference rooms, Laundry service, Shuttle service, 24-hour reception"
+        "facilities": "Conference rooms, Laundry service, Shuttle service, 24-hour reception",
+        "amenitiesIcon": [icon3, icon1, icon2, icon4],
+        "facilitiesIcon": [icon6, icon5, icon8, icon7]
     },
     {
         "image_url": hotel3,
@@ -39,7 +53,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Ocean view rooms, Spa, Restaurant, Kids club",
-        "facilities": "Business center, Room service, Bicycle rental, Valet parking"
+        "facilities": "Business center, Room service, Bicycle rental, Valet parking",
+        "amenitiesIcon": [icon1, icon4, icon3, icon2],
+        "facilitiesIcon": [icon8, icon5, icon7, icon6]
     },
     {
         "image_url": hotel4,
@@ -49,7 +65,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Ski-in/ski-out, Hot tub, Fireplace, Barbecue area",
-        "facilities": "Ski storage, Pet-friendly rooms, WiFi, Airport shuttle"
+        "facilities": "Ski storage, Pet-friendly rooms, WiFi, Airport shuttle",
+        "amenitiesIcon": [icon4, icon1, icon3, icon2],
+        "facilitiesIcon": [icon7, icon5, icon8, icon6]
     },
     {
         "image_url": hotel5,
@@ -59,7 +77,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "City view rooms, Rooftop terrace, Lounge, Fitness center",
-        "facilities": "Parking garage, Laundry facilities, Free breakfast, WiFi"
+        "facilities": "Parking garage, Laundry facilities, Free breakfast, WiFi",
+        "amenitiesIcon": [icon3, icon4, icon2, icon1],
+        "facilitiesIcon": [icon8, icon7, icon5, icon6]
     },
     {
         "image_url": hotel6,
@@ -69,7 +89,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Riverfront views, Kayak rentals, Pool, Restaurant",
-        "facilities": "Concierge, Room service, Business center, Airport transfer"
+        "facilities": "Concierge, Room service, Business center, Airport transfer",
+        "amenitiesIcon": [icon2, icon4, icon1, icon3],
+        "facilitiesIcon": [icon6, icon8, icon5, icon7]
     },
     {
         "image_url": hotel7,
@@ -79,7 +101,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "City skyline views, Rooftop bar, Fitness center, Spa",
-        "facilities": "Meeting rooms, Room service, Parking, WiFi"
+        "facilities": "Meeting rooms, Room service, Parking, WiFi",
+        "amenitiesIcon": [icon1, icon4, icon3, icon2],
+        "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": hotel8,
@@ -89,7 +113,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Countryside views, Outdoor pool, Garden, Restaurant",
-        "facilities": "Event space, Bicycle rental, Library, WiFi"
+        "facilities": "Event space, Bicycle rental, Library, WiFi",
+        "amenitiesIcon": [icon3, icon2, icon4, icon1],
+        "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": hotel9,
@@ -99,7 +125,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Lakefront views, Boat rentals, Fishing dock, Lakeside restaurant",
-        "facilities": "Marina, Lakeside pool, Spa services, Free parking"
+        "facilities": "Marina, Lakeside pool, Spa services, Free parking",
+        "amenitiesIcon": [icon4, icon2, icon3, icon1],
+        "facilitiesIcon": [icon7, icon8, icon5, icon6]
     },
     {
         "image_url": hotel10,
@@ -109,7 +137,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Harbor views, Beach access, Seafood restaurant, Outdoor terrace",
-        "facilities": "Event space, Concierge, Room service, WiFi"
+        "facilities": "Event space, Concierge, Room service, WiFi",
+        "amenitiesIcon": [icon1, icon2, icon4, icon3],
+        "facilitiesIcon": [icon5, icon8, icon6, icon7]
     },
     {
         "image_url": hotel11,
@@ -119,7 +149,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Mountain views, Hiking trails, Campfire area, Alpine restaurant",
-        "facilities": "Ski storage, Gift shop, Pet-friendly rooms, WiFi"
+        "facilities": "Ski storage, Gift shop, Pet-friendly rooms, WiFi",
+        "amenitiesIcon": [icon3, icon1, icon4, icon2],
+        "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": hotel3,
@@ -129,7 +161,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Coastal views, Beach access, Surfing lessons, Seafood restaurant",
-        "facilities": "Poolside bar, Fitness center, Business center, Parking"
+        "facilities": "Poolside bar, Fitness center, Business center, Parking",
+        "amenitiesIcon": [icon1, icon4, icon2, icon3],
+        "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": hotel6,
@@ -139,7 +173,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Riverside views, Boat rentals, Pool, Riverside restaurant",
-        "facilities": "Concierge, Room service, Event space, Free WiFi"
+        "facilities": "Concierge, Room service, Event space, Free WiFi",
+        "amenitiesIcon": [icon2, icon3, icon1, icon4],
+        "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": hotel8,
@@ -149,7 +185,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Bayfront views, Marina access, Waterfront restaurant, Outdoor pool",
-        "facilities": "Conference rooms, Concierge, Room service, WiFi"
+        "facilities": "Conference rooms, Concierge, Room service, WiFi",
+        "amenitiesIcon": [icon4, icon3, icon1, icon2],
+        "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": hotel10,
@@ -159,7 +197,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Lakefront views, Fishing pier, Lakeside restaurant, Lakeside pool",
-        "facilities": "Boat rentals, Marina, Spa, Free parking"
+        "facilities": "Boat rentals, Marina, Spa, Free parking",
+        "amenitiesIcon": [icon1, icon4, icon2, icon3],
+        "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": hotel11,
@@ -169,7 +209,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Suburban views, Outdoor pool, Fitness center, Barbecue area",
-        "facilities": "Business center, Laundry facilities, Free breakfast, WiFi"
+        "facilities": "Business center, Laundry facilities, Free breakfast, WiFi",
+        "amenitiesIcon": [icon1, icon2, icon4, icon3],
+        "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": hotel6,
@@ -179,7 +221,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Downtown views, Urban garden, Fitness center, Rooftop bar",
-        "facilities": "Meeting rooms, Room service, Valet parking, WiFi"
+        "facilities": "Meeting rooms, Room service, Valet parking, WiFi",
+        "amenitiesIcon": [icon1, icon3, icon4, icon2],
+        "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": hotel11,
@@ -189,7 +233,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Coastal views, Beach access, Seafood restaurant, Outdoor pool",
-        "facilities": "Event space, Concierge, Room service, WiFi"
+        "facilities": "Event space, Concierge, Room service, WiFi",
+        "amenitiesIcon": [icon4, icon1, icon2, icon3],
+        "facilitiesIcon": [icon6, icon5, icon7, icon8]
     },
     {
         "image_url": hotel5,
@@ -199,7 +245,9 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Harbor views, Beach access, Watersports rentals, Harborfront restaurant",
-        "facilities": "Spa services, Fitness center, Business center, Parking"
+        "facilities": "Spa services, Fitness center, Business center, Parking",
+        "amenitiesIcon": [icon2, icon4, icon1, icon3],
+        "facilitiesIcon": [icon5, icon8, icon7, icon6]
     },
     {
         "image_url": hotel8,
@@ -209,6 +257,8 @@ export const hotelData = [
         "type": "hotel",
         "action": "Book",
         "amenities": "Mountain views, Hiking trails, Alpine restaurant, Outdoor pool",
-        "facilities": "Event space, Concierge, Room service, WiFi"
+        "facilities": "Event space, Concierge, Room service, WiFi",
+        "amenitiesIcon": [icon4, icon3, icon1, icon2],
+        "facilitiesIcon": [icon8, icon6, icon5, icon7]
     }
 ];

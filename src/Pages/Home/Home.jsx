@@ -88,8 +88,10 @@ const Home = ({ Data }) => {
 
                     </div>
                     <div className='aminities'>
-                       <IntroDivider name={"Amenities"}  description={selectedCard? selectedCard.amenities : Data[0].amenities} icon={<DryCleaningIcon />}/>
-                       <IntroDivider name={"Facilities"} description={selectedCard? selectedCard.facilities : Data[0].facilities}  icon={<HowToRegIcon />}/>
+                       <IntroDivider name={"Amenities"} amenitiesIcon={selectedCard? selectedCard.amenitiesIcon:Data[0].amenitiesIcon}  
+                        description={selectedCard? selectedCard.amenities : Data[0].amenities} icon={<DryCleaningIcon />}/>
+                       <IntroDivider name={"Facilities"} facilitiesIcon={selectedCard? selectedCard.facilitiesIcon : Data[0].facilitiesIcon}
+                        description={selectedCard? selectedCard.facilities : Data[0].facilities}  icon={<HowToRegIcon />}/>
                     </div>
                     <div className='right'>
                         <div className='locationCombine'>

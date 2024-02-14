@@ -1,3 +1,12 @@
+import icon1 from '../Assets/amenities/amenities.png'
+import icon2 from '../Assets/amenities/amenities1.png'
+import icon3 from '../Assets/amenities/amenities2.png'
+import icon4 from '../Assets/amenities/amenities3.png'
+import icon5 from '../Assets/amenities/amenities4.png'
+import icon6 from '../Assets/amenities/amenities5.png'
+import icon7 from '../Assets/amenities/amenities6.png'
+import icon8 from '../Assets/amenities/amenities7.png'
+
 let coWorking1 = 'https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
 let coWorking2 = 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
 let coWorking3 = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y28lMjB3b3JraW5nfGVufDB8fDB8fHww'
@@ -19,7 +28,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Conference rooms, Coffee & snacks, 24/7 access",
-        "facilities": "Shared kitchen, Printing services, Lounge area"
+        "facilities": "Shared kitchen, Printing services, Lounge area",
+        "amenitiesIcon": [icon2, icon3, icon4, icon1],
+      "facilitiesIcon": [icon5, icon7, icon6, icon8]
     },
     {
         "image_url": coWorking2,
@@ -29,7 +40,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Meeting rooms, Refreshments, Flexible memberships",
-        "facilities": "Quiet zones, Event spaces, Mail handling"
+        "facilities": "Quiet zones, Event spaces, Mail handling",
+        "amenitiesIcon": [icon3, icon1, icon2, icon4],
+      "facilitiesIcon": [icon6, icon5, icon8, icon7]
     },
     {
         "image_url": coWorking3,
@@ -39,7 +52,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Lounge area, Snack bar, Networking events",
-        "facilities": "Shared workspace, Private phone booths, Bike storage"
+        "facilities": "Shared workspace, Private phone booths, Bike storage",
+        "amenitiesIcon": [icon1, icon4, icon3, icon2],
+      "facilitiesIcon": [icon8, icon5, icon7, icon6]
     },
     {
         "image_url": coWorking4,
@@ -49,7 +64,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Conference rooms, Coffee & snacks, 24/7 access",
-        "facilities": "Shared kitchen, Printing services, Lounge area"
+        "facilities": "Shared kitchen, Printing services, Lounge area",
+        "amenitiesIcon": [icon4, icon1, icon3, icon2],
+      "facilitiesIcon": [icon7, icon5, icon8, icon6]
     },
     {
         "image_url": coWorking5,
@@ -59,7 +76,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Meeting rooms, Refreshments, Flexible memberships",
-        "facilities": "Quiet zones, Event spaces, Mail handling"
+        "facilities": "Quiet zones, Event spaces, Mail handling",
+        "amenitiesIcon": [icon3, icon4, icon2, icon1],
+      "facilitiesIcon": [icon8, icon7, icon5, icon6]
     },
     {
         "image_url": coWorking6,
@@ -69,7 +88,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Lounge area, Snack bar, Networking events",
-        "facilities": "Shared workspace, Private phone booths, Bike storage"
+        "facilities": "Shared workspace, Private phone booths, Bike storage",
+        "amenitiesIcon": [icon2, icon4, icon1, icon3],
+      "facilitiesIcon": [icon6, icon8, icon5, icon7]
     },
     {
         "image_url": coWorking7,
@@ -79,7 +100,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Conference rooms, Coffee & snacks, 24/7 access",
-        "facilities": "Shared kitchen, Printing services, Lounge area"
+        "facilities": "Shared kitchen, Printing services, Lounge area",
+        "amenitiesIcon": [icon1, icon4, icon3, icon2],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": coWorking8,
@@ -89,7 +112,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Meeting rooms, Refreshments, Flexible memberships",
-        "facilities": "Quiet zones, Event spaces, Mail handling"
+        "facilities": "Quiet zones, Event spaces, Mail handling",
+        "amenitiesIcon": [icon3, icon2, icon4, icon1],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": coWorking9,
@@ -99,7 +124,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Lounge area, Snack bar, Networking events",
-        "facilities": "Shared workspace, Private phone booths, Bike storage"
+        "facilities": "Shared workspace, Private phone booths, Bike storage",
+        "amenitiesIcon": [icon4, icon2, icon3, icon1],
+      "facilitiesIcon": [icon7, icon8, icon5, icon6]
     },
     {
         "image_url": coWorking10,
@@ -109,7 +136,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Conference rooms, Coffee & snacks, 24/7 access",
-        "facilities": "Shared kitchen, Printing services, Lounge area"
+        "facilities": "Shared kitchen, Printing services, Lounge area",
+        "amenitiesIcon": [icon1, icon2, icon4, icon3],
+      "facilitiesIcon": [icon5, icon8, icon6, icon7]
     },
     {
         "image_url": coWorking1,
@@ -119,7 +148,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Meeting rooms, Refreshments, Flexible memberships",
-        "facilities": "Quiet zones, Event spaces, Mail handling"
+        "facilities": "Quiet zones, Event spaces, Mail handling",
+        "amenitiesIcon": [icon3, icon1, icon4, icon2],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": coWorking2,
@@ -129,7 +160,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Lounge area, Snack bar, Networking events",
-        "facilities": "Shared workspace, Private phone booths, Bike storage"
+        "facilities": "Shared workspace, Private phone booths, Bike storage",
+        "amenitiesIcon": [icon1, icon4, icon2, icon3],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": coWorking3,
@@ -139,7 +172,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Conference rooms, Coffee & snacks, 24/7 access",
-        "facilities": "Shared kitchen, Printing services, Lounge area"
+        "facilities": "Shared kitchen, Printing services, Lounge area",
+        "amenitiesIcon": [icon2, icon3, icon1, icon4],
+      "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": coWorking4,
@@ -149,7 +184,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Meeting rooms, Refreshments, Flexible memberships",
-        "facilities": "Quiet zones, Event spaces, Mail handling"
+        "facilities": "Quiet zones, Event spaces, Mail handling",
+        "amenitiesIcon": [icon4, icon3, icon1, icon2],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": coWorking5,
@@ -159,7 +196,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Lounge area, Snack bar, Networking events",
-        "facilities": "Shared workspace, Private phone booths, Bike storage"
+        "facilities": "Shared workspace, Private phone booths, Bike storage",
+        "amenitiesIcon": [icon1, icon4, icon2, icon3],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": coWorking6,
@@ -169,7 +208,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Conference rooms, Coffee & snacks, 24/7 access",
-        "facilities": "Shared kitchen, Printing services, Lounge area"
+        "facilities": "Shared kitchen, Printing services, Lounge area",
+        "amenitiesIcon": [icon1, icon2, icon4, icon3],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": coWorking7,
@@ -179,7 +220,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Meeting rooms, Refreshments, Flexible memberships",
-        "facilities": "Quiet zones, Event spaces, Mail handling"
+        "facilities": "Quiet zones, Event spaces, Mail handling",
+        "amenitiesIcon": [icon1, icon3, icon4, icon2],
+      "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": coWorking8,
@@ -189,7 +232,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Lounge area, Snack bar, Networking events",
-        "facilities": "Shared workspace, Private phone booths, Bike storage"
+        "facilities": "Shared workspace, Private phone booths, Bike storage",
+        "amenitiesIcon": [icon4, icon1, icon2, icon3],
+      "facilitiesIcon": [icon6, icon5, icon7, icon8]
     },
     {
         "image_url": coWorking9,
@@ -199,7 +244,9 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Conference rooms, Coffee & snacks, 24/7 access",
-        "facilities": "Shared kitchen, Printing services, Lounge area"
+        "facilities": "Shared kitchen, Printing services, Lounge area",
+        "amenitiesIcon": [icon2, icon4, icon1, icon3],
+      "facilitiesIcon": [icon5, icon8, icon7, icon6]
     },
     {
         "image_url": coWorking10,
@@ -209,6 +256,8 @@ export const coworkingSpaceData =  [
         "type": "Co-Working Space",
         "action": "Book",
         "amenities": "High-speed Wi-Fi, Meeting rooms, Refreshments, Flexible memberships",
-        "facilities": "Quiet zones, Event spaces, Mail handling"
+        "facilities": "Quiet zones, Event spaces, Mail handling",
+        "amenitiesIcon": [icon4, icon3, icon1, icon2],
+      "facilitiesIcon": [icon8, icon6, icon5, icon7]
     }
 ];

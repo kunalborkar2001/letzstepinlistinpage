@@ -9,6 +9,15 @@ import realEstate8 from '../Assets/Real-Estate-Property/realEstate8.jpeg'
 import realEstate9 from '../Assets/Real-Estate-Property/realEstate9.jpeg'
 import realEstate10 from '../Assets/Real-Estate-Property/realEstate10.jpeg'
 
+import icon1 from '../Assets/amenities/amenities.png'
+import icon2 from '../Assets/amenities/amenities1.png'
+import icon3 from '../Assets/amenities/amenities2.png'
+import icon4 from '../Assets/amenities/amenities3.png'
+import icon5 from '../Assets/amenities/amenities4.png'
+import icon6 from '../Assets/amenities/amenities5.png'
+import icon7 from '../Assets/amenities/amenities6.png'
+import icon8 from '../Assets/amenities/amenities7.png'
+
 
 export const realEstateData = [
     {
@@ -19,7 +28,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "This property features a swimming pool, gym, spa, and garden.",
-        "facilities": "Additionally, it offers parking, security, concierge service, and Wi-Fi."
+        "facilities": "Additionally, it offers parking, security, concierge service, and Wi-Fi.",
+          "amenitiesIcon": [icon2, icon3, icon4, icon1],
+      "facilitiesIcon": [icon5, icon7, icon6, icon8]
     },
     {
         "image_url": realEstate2,
@@ -29,7 +40,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "This property offers a gym and garden.",
-        "facilities": "It includes parking and Wi-Fi."
+        "facilities": "It includes parking and Wi-Fi.",
+          "amenitiesIcon": [icon3, icon1, icon2, icon4],
+      "facilitiesIcon": [icon6, icon5, icon8, icon7]
     },
     {
         "image_url": realEstate3,
@@ -39,7 +52,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy the beachfront view and the cozy atmosphere of this cottage.",
-        "facilities": "Parking is available."
+        "facilities": "Parking is available.",
+          "amenitiesIcon": [icon1, icon4, icon3, icon2],
+      "facilitiesIcon": [icon8, icon5, icon7, icon6]
     },
     {
         "image_url": realEstate4,
@@ -49,7 +64,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Experience the beauty of the mountains with this chalet.",
-        "facilities": "Parking is provided for convenience."
+        "facilities": "Parking is provided for convenience.",
+          "amenitiesIcon": [icon4, icon1, icon3, icon2],
+      "facilitiesIcon": [icon7, icon5, icon8, icon6]
     },
     {
         "image_url": realEstate5,
@@ -59,7 +76,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "This loft offers a contemporary urban living experience.",
-        "facilities": "Parking is available for residents."
+        "facilities": "Parking is available for residents.",
+          "amenitiesIcon": [icon3, icon4, icon2, icon1],
+      "facilitiesIcon": [icon8, icon7, icon5, icon6]
     },
     {
         "image_url": realEstate6,
@@ -69,7 +88,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy the serene riverside setting of this home.",
-        "facilities": "Parking and Wi-Fi are included."
+        "facilities": "Parking and Wi-Fi are included.",
+          "amenitiesIcon": [icon2, icon4, icon1, icon3],
+      "facilitiesIcon": [icon6, icon8, icon5, icon7]
     },
     {
         "image_url": realEstate7,
@@ -79,7 +100,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Experience the comfort and tranquility of suburban living.",
-        "facilities": "Parking is provided."
+        "facilities": "Parking is provided.",
+          "amenitiesIcon": [icon1, icon4, icon3, icon2],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": realEstate8,
@@ -89,7 +112,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Experience rustic charm with this farmhouse.",
-        "facilities": "Parking is available."
+        "facilities": "Parking is available.",
+          "amenitiesIcon": [icon3, icon2, icon4, icon1],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": realEstate9,
@@ -99,7 +124,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy breathtaking views of the lake from this property.",
-        "facilities": "Parking is provided."
+        "facilities": "Parking is provided.",
+          "amenitiesIcon": [icon4, icon2, icon3, icon1],
+      "facilitiesIcon": [icon7, icon8, icon5, icon6]
     },
     {
         "image_url": realEstate10,
@@ -109,7 +136,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "This property offers a cozy harbor-side retreat.",
-        "facilities": "Parking is available for residents."
+        "facilities": "Parking is available for residents.",
+          "amenitiesIcon": [icon1, icon2, icon4, icon3],
+      "facilitiesIcon": [icon5, icon8, icon6, icon7]
     },
     {
         "image_url": realEstate1,
@@ -119,7 +148,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy the tranquility of the mountains with this retreat.",
-        "facilities": "Parking is provided."
+        "facilities": "Parking is provided.",
+          "amenitiesIcon": [icon3, icon1, icon4, icon2],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": realEstate2,
@@ -129,7 +160,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Experience coastal living in this cozy bungalow.",
-        "facilities": "Parking is available."
+        "facilities": "Parking is available.",
+          "amenitiesIcon": [icon1, icon4, icon2, icon3],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": realEstate3,
@@ -139,7 +172,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy luxurious living with a riverfront view from this mansion.",
-        "facilities": "Parking and Wi-Fi are included."
+        "facilities": "Parking and Wi-Fi are included.",
+          "amenitiesIcon": [icon2, icon3, icon1, icon4],
+      "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": realEstate4,
@@ -149,7 +184,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "This property offers stunning views of the bay.",
-        "facilities": "Parking is available."
+        "facilities": "Parking is available.",
+          "amenitiesIcon": [icon4, icon3, icon1, icon2],
+      "facilitiesIcon": [icon6, icon8, icon7, icon5]
     },
     {
         "image_url": realEstate5,
@@ -159,7 +196,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy lakefront living in this cozy house.",
-        "facilities": "Parking is provided."
+        "facilities": "Parking is provided.",
+          "amenitiesIcon": [icon1, icon4, icon2, icon3],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": realEstate6,
@@ -169,7 +208,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Experience comfortable suburban living in this home.",
-        "facilities": "Parking is provided."
+        "facilities": "Parking is provided.",
+          "amenitiesIcon": [icon1, icon2, icon4, icon3],
+      "facilitiesIcon": [icon7, icon8, icon6, icon5]
     },
     {
         "image_url": realEstate7,
@@ -179,7 +220,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy urban living in this downtown condo.",
-        "facilities": "Parking is available."
+        "facilities": "Parking is available.",
+          "amenitiesIcon": [icon1, icon3, icon4, icon2],
+      "facilitiesIcon": [icon7, icon6, icon8, icon5]
     },
     {
         "image_url": realEstate8,
@@ -189,7 +232,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "This property offers a relaxing coastal retreat.",
-        "facilities": "Parking is provided."
+        "facilities": "Parking is provided.",
+          "amenitiesIcon": [icon4, icon1, icon2, icon3],
+      "facilitiesIcon": [icon6, icon5, icon7, icon8]
     },
     {
         "image_url": realEstate9,
@@ -199,7 +244,9 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Enjoy scenic harbor views from this home.",
-        "facilities": "Parking is available."
+        "facilities": "Parking is available.",
+          "amenitiesIcon": [icon2, icon4, icon1, icon3],
+      "facilitiesIcon": [icon5, icon8, icon7, icon6]
     },
     {
         "image_url": realEstate10,
@@ -209,6 +256,8 @@ export const realEstateData = [
         "type": "Real Estate",
         "action": "Buy",
         "amenities": "Experience mountain living in this cozy chalet.",
-        "facilities": "Parking is provided."
+        "facilities": "Parking is provided.",
+          "amenitiesIcon": [icon4, icon3, icon1, icon2],
+      "facilitiesIcon": [icon8, icon6, icon5, icon7]
     }
 ]
