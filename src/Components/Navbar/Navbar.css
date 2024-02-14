@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 468px) {
 
-    .NavAbout , .NavContact {
+    .NavAbout, .NavContact {
         display: none;
 }
 }

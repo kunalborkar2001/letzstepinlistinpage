@@ -15,159 +15,199 @@ export const fitnessData = [
         "name": "Muscle Haven",
         "location": "789 Oak Avenue, Somewhereville, USA",
         "price": 3500,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Personal training, Group classes, Cardio equipment, Strength machines",
+        "facilities": "Locker rooms, Showers, Sauna, Juice bar"
     },
     {
         "image_url": fitness2,
         "name": "FitZone X",
         "location": "456 Elm Street, Anytown, USA",
         "price": 1500,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Yoga studio, Pilates classes, Indoor cycling, Functional training area",
+        "facilities": "Steam room, Towel service, Smoothie bar, Massage therapy"
     },
     {
         "image_url": fitness3,
         "name": "Peak Performance Palace",
         "location": "101 Pine Street, Metro City, USA",
         "price": 2800,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Sports performance training, HIIT workouts, Swimming pool, Cross-training area",
+        "facilities": "Physiotherapy clinic, Nutrition counseling, Pro shop, Lounge area"
     },
     {
         "image_url": fitness4,
         "name": "Iron Temple",
         "location": "222 Maple Avenue, Downtown, USA",
         "price": 4200,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Powerlifting platforms, Strongman equipment, Boxing ring, Climbing wall",
+        "facilities": "Protein bar, Ice bath, Physiotherapy room, WiFi lounge"
     },
     {
         "image_url": fitness5,
         "name": "Eternal Fitness",
         "location": "777 Cedar Lane, Suburbia, USA",
         "price": 2900,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Treadmills, Elliptical trainers, Free weights, Group fitness studio",
+        "facilities": "Massage chairs, Nutrition bar, WiFi zone, Childcare center"
     },
     {
         "image_url": fitness6,
         "name": "Powerhouse Arena",
         "location": "888 Walnut Drive, Riverside, USA",
         "price": 4800,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Olympic lifting platforms, Functional fitness area, Indoor track, Boxing area",
+        "facilities": "Sports therapy clinic, Healthy cafe, Lounge area, Retail store"
     },
     {
         "image_url": fitness7,
         "name": "Elite Fitness Club",
         "location": "321 Birch Street, Midtown, USA",
         "price": 3700,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Basketball court, Volleyball court, Racquetball court, Indoor soccer field",
+        "facilities": "Pro shop, Snack bar, Childcare center, Meeting rooms"
     },
     {
         "image_url": fitness8,
         "name": "Champion Fitness",
         "location": "555 Pinecone Boulevard, Countryside, USA",
         "price": 2000,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Cardio theater, Functional training area, Group exercise studio, Yoga classes",
+        "facilities": "Steam room, Protein shake bar, WiFi lounge, Retail store"
     },
     {
         "image_url": fitness9,
         "name": "FlexZone Gym",
         "location": "999 Oakwood Avenue, Lakeside, USA",
         "price": 4300,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "HIIT classes, Strength training area, Cardio machines, Spin studio",
+        "facilities": "Massage therapy, Nutrition counseling, Sauna, Lounge area"
     },
     {
         "image_url": fitness10,
         "name": "Body Evolution",
         "location": "444 Chestnut Lane, Harbor City, USA",
         "price": 3200,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Weight machines, Cardio equipment, Group fitness classes, Personal training",
+        "facilities": "Smoothie bar, Yoga studio, Stretching area, WiFi lounge"
     },
     {
         "image_url": fitness5,
         "name": "Strength Central",
         "location": "777 Spruce Street, Mountainside, USA",
         "price": 2500,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Barbell training, Powerlifting area, CrossFit workouts, Kettlebell classes",
+        "facilities": "Sauna, Nutrition bar, Massage therapy, Lounge area"
     },
     {
         "image_url": fitness3,
         "name": "Fit4Life",
         "location": "666 Willow Drive, Coastal Town, USA",
         "price": 1700,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Zumba classes, TRX training, Circuit training, Boot camp",
+        "facilities": "Jacuzzi, Juice bar, Sports massage, WiFi lounge"
     },
     {
         "image_url": fitness2,
         "name": "Gymfinity",
         "location": "888 Elmwood Avenue, Riverside, USA",
         "price": 3900,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Indoor pool, Basketball court, Indoor track, Spinning studio",
+        "facilities": "Smoothie bar, Sauna, Massage therapy, WiFi lounge"
     },
     {
         "image_url": fitness7,
         "name": "CrossFit Central",
         "location": "111 Cedar Avenue, Bay City, USA",
         "price": 4500,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "CrossFit workouts, Olympic lifting area, Gymnastics training, Rowing machines",
+        "facilities": "Pro shop, Protein shake bar, Lounge area, WiFi zone"
     },
     {
         "image_url": fitness5,
         "name": "Pump & Run",
         "location": "222 Oak Lane, Lakeside, USA",
         "price": 2600,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Weightlifting platforms, Cardio area, Boxing equipment, Group classes",
+        "facilities": "Steam room, Smoothie bar, Massage therapy, WiFi lounge"
     },
     {
         "image_url": fitness6,
         "name": "Fitness Fusion",
         "location": "333 Maple Street, Suburbia, USA",
         "price": 3700,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Functional training, Yoga classes, Pilates studio, Kickboxing area",
+        "facilities": "Healthy cafe, Nutrition counseling, Massage therapy, WiFi zone"
     },
     {
         "image_url": fitness7,
         "name": "Core Strength",
         "location": "777 Birch Lane, Downtown, USA",
         "price": 3200,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Core conditioning, Bodyweight exercises, Stability training, Abs classes",
+        "facilities": "Smoothie bar, Sauna, Massage therapy, WiFi lounge"
     },
     {
         "image_url": fitness8,
         "name": "Xtreme Fitness",
         "location": "444 Pine Street, Coastal Town, USA",
         "price": 2800,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Boot camp, High-intensity workouts, Strength training, Circuit classes",
+        "facilities": "Protein shake bar, Juice bar, Lounge area, WiFi zone"
     },
     {
         "image_url": fitness9,
         "name": "Endurance Emporium",
         "location": "999 Walnut Avenue, Harbor City, USA",
         "price": 2200,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Endurance training, Marathon coaching, Triathlon preparation, Cycling classes",
+        "facilities": "Steam room, Smoothie bar, Massage therapy, WiFi lounge"
     },
     {
         "image_url": fitness10,
         "name": "GymOasis",
         "location": "666 Elm Lane, Mountainside, USA",
         "price": 4000,
-        "type" : "fitness",
-        "action" : "Book"
+        "type": "fitness",
+        "action": "Book",
+        "amenities": "Fitness assessment, Personalized workouts, Group fitness classes, Nutrition counseling",
+        "facilities": "Healthy cafe, Sauna, Massage therapy, WiFi zone"
     }
-]
+];

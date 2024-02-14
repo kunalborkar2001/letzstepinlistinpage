@@ -15,159 +15,199 @@ export const educationInstituteData = [
         "name": "Elite Academy",
         "location": "123 Oak Avenue, Somewhereville, USA",
         "price": 3500,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
+        "facilities": "Auditorium, Art studios, Science labs"
     },
     {
         "image_url": educationInstitute2,
         "name": "Bright Minds School",
         "location": "456 Elm Street, Anytown, USA",
         "price": 1500,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Playground, Music rooms, Language labs, Outdoor spaces",
+        "facilities": "Dance studios, Media center, STEM labs"
     },
     {
         "image_url": educationInstitute3,
         "name": "Creative Learning Center",
         "location": "101 Pine Street, Metro City, USA",
         "price": 2800,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Art rooms, Cafeteria, Outdoor play area",
+        "facilities": "Auditorium, Science labs, Music studios"
     },
     {
         "image_url": educationInstitute4,
         "name": "Future Scholars Academy",
         "location": "222 Maple Avenue, Downtown, USA",
         "price": 4200,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
+        "facilities": "Auditorium, Art studios, Science labs"
     },
     {
         "image_url": educationInstitute5,
         "name": "Tech Institute",
         "location": "777 Cedar Lane, Suburbia, USA",
         "price": 2900,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
+        "facilities": "Auditorium, Art studios, Science labs"
     },
     {
         "image_url": educationInstitute6,
         "name": "Global School of Business",
         "location": "888 Walnut Drive, Riverside, USA",
         "price": 4800,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
+        "facilities": "Auditorium, Art studios, Science labs"
     },
     {
         "image_url": educationInstitute7,
         "name": "Bright Start Preschool",
         "location": "321 Birch Street, Midtown, USA",
         "price": 3700,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Playground, Music rooms, Language labs, Outdoor spaces",
+        "facilities": "Dance studios, Media center, STEM labs"
     },
     {
         "image_url": educationInstitute8,
         "name": "Innovative Learning Institute",
         "location": "555 Pinecone Boulevard, Countryside, USA",
         "price": 2000,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Art rooms, Cafeteria, Outdoor play area",
+        "facilities": "Auditorium, Science labs, Music studios"
     },
     {
         "image_url": educationInstitute9,
         "name": "Young Achievers School",
         "location": "999 Oakwood Avenue, Lakeside, USA",
         "price": 4300,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
+        "facilities": "Auditorium, Art studios, Science labs"
     },
     {
         "image_url": educationInstitute10,
         "name": "Global College",
         "location": "444 Chestnut Lane, Harbor City, USA",
         "price": 3200,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Library, Computer labs, Cafeteria, Sports facilities",
+        "facilities": "Auditorium, Art studios, Science labs"
     },
     {
         "image_url": educationInstitute1,
         "name": "Art Academy",
         "location": "777 Spruce Street, Mountainside, USA",
         "price": 2500,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Art rooms, Exhibition spaces, Outdoor studios",
+        "facilities": "Sculpture studios, Painting labs, Digital art rooms"
     },
     {
         "image_url": educationInstitute2,
         "name": "Language Institute",
         "location": "666 Willow Drive, Coastal Town, USA",
         "price": 1700,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Language labs, Conversation practice areas, Cultural events",
+        "facilities": "Library, Multimedia rooms, Translation services"
     },
     {
         "image_url": educationInstitute3,
         "name": "Music Conservatory",
         "location": "888 Elmwood Avenue, Riverside, USA",
         "price": 3900,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Music rooms, Recording studios, Practice spaces",
+        "facilities": "Concert hall, Instrument rental, Music theory classrooms"
     },
     {
         "image_url": educationInstitute4,
         "name": "Dance Academy",
         "location": "111 Cedar Avenue, Bay City, USA",
         "price": 4500,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Dance studios, Performance spaces, Costume rooms",
+        "facilities": "Choreography labs, Dance history library, Ballet bars"
     },
     {
         "image_url": educationInstitute5,
         "name": "Sports Academy",
         "location": "222 Oak Lane, Lakeside, USA",
         "price": 2600,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Gymnasium, Athletic fields, Fitness center",
+        "facilities": "Sports science labs, Locker rooms, Training equipment"
     },
     {
         "image_url": educationInstitute6,
         "name": "Culinary Institute",
         "location": "333 Maple Street, Suburbia, USA",
         "price": 3700,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Cooking labs, Demonstration kitchens, Tasting rooms",
+        "facilities": "Bakery, Culinary library, Food photography studio"
     },
     {
         "image_url": educationInstitute7,
         "name": "Medical College",
         "location": "777 Birch Lane, Downtown, USA",
         "price": 3200,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Anatomy labs, Simulation centers, Medical library",
+        "facilities": "Research labs, Hospital rotations, Clinical skills rooms"
     },
     {
         "image_url": educationInstitute8,
         "name": "Engineering School",
         "location": "444 Pine Street, Coastal Town, USA",
         "price": 2800,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Engineering labs, Design studios, Workshop",
+        "facilities": "Computer labs, Prototyping facilities, Research centers"
     },
     {
         "image_url": educationInstitute9,
         "name": "Law School",
         "location": "999 Walnut Avenue, Harbor City, USA",
         "price": 2200,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Law library, Moot courtrooms, Legal clinics",
+        "facilities": "Seminar rooms, Mock trial facilities, Internship placements"
     },
     {
         "image_url": educationInstitute10,
         "name": "Design Institute",
         "location": "666 Elm Lane, Mountainside, USA",
         "price": 4000,
-        "type" : "Education Institutes",
-        "action" : "Book"
+        "type": "Education Institutes",
+        "action": "Book",
+        "amenities": "Design studios, Fabrication labs, Exhibition spaces",
+        "facilities": "Digital fabrication center, Materials library, Design thinking workshops"
     }
 ];

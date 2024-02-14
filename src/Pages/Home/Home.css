@@ -208,6 +208,16 @@
     width: 100%;
     justify-content: center;
     gap: 12px;
+    margin: 12px;
+}
+
+.aminities {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    margin: 12px;
 }
 
 
@@ -243,6 +253,9 @@
     .HomeLeft .BigHead h1 {
         font-size: 1rem;
         text-align: center;
+    }
+    .aminities {
+        flex-direction: column;
     }
 
 }

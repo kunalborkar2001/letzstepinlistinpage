@@ -18,6 +18,9 @@ import { Typography } from '@mui/material';
 import DealsCarousel from '../../Components/DealsCarousel/DealsCarousel';
 import ContactUsPopUp from '../../Components/ContactUsPopUp/ContactUsPopUp';
 import Navbar from '../../Components/Navbar/Navbar';
+import IntroDivider from '../../Components/IntroDivider/IntroDivider';
+import DryCleaningIcon from '@mui/icons-material/DryCleaning';
+import HowToRegIcon from '@mui/icons-material/HowToReg';
 
 const Home = ({ Data }) => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -83,6 +86,10 @@ const Home = ({ Data }) => {
                         </Box>
                         <p className="price">₹{selectedCard ? selectedCard.price : Data[0].price}</p>
 
+                    </div>
+                    <div className='aminities'>
+                       <IntroDivider name={"Amenities"}  description={selectedCard? selectedCard.amenities : Data[0].amenities} icon={<DryCleaningIcon />}/>
+                       <IntroDivider name={"Facilities"} description={selectedCard? selectedCard.facilities : Data[0].facilities}  icon={<HowToRegIcon />}/>
                     </div>
                     <div className='right'>
                         <div className='locationCombine'>
